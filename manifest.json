@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "LinkVault",
+  "version": "1.0.0",
+  "description": "Organize and manage important web links from social media platforms and other websites",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LinkVault - Manage Your Links"
+  }
+}
